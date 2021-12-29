@@ -40,6 +40,7 @@ const App = () => {
   const [walletAddress, setWalletAddress] = useState(null);
   const [inputValue, setInputValue] = useState('');
   const [gifList, setGifList] = useState([]);
+  const [like, setLike] = useState(null);
 
   // Actions
   const checkIfWalletIsConnected = async () => {
@@ -102,6 +103,11 @@ const sendGif = async () => {
     console.log("Error sending GIF:", error)
   }
 };
+
+// const likeCount = (event) => {
+//     setLike(like+1);
+// }
+
 
 const onInputChange = (event) => {
   const { value } = event.target;
@@ -183,8 +189,8 @@ const createGifAccount = async () => {
                 <div className="gif-item" key={index}>
                   
                   <img src={item.gifLink} alt="post"/>
-                  <h3>{item.userAddress.toString}</h3>
-                  {console.log(item.userAddress.toString())}
+                  <h3>By {walletAddress}</h3>
+                    {/* <button onClick={likeCount}>{like}</button> */}
                 </div>
               ))}
             </div>
