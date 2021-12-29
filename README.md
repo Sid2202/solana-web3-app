@@ -1,5 +1,5 @@
 # Platform to upload GIFs onto the Solana network!
-solana-web3-app-git-master-sid2202.vercel.app
+https://solana-web3-app-git-master-sid2202.vercel.app/
 
 ### **Welcome 👋**
 To get started with this course, clone this repo and follow these commands:
