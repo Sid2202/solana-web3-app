@@ -8,3 +8,5 @@ To get started with this course, clone this repo and follow these commands:
 2. Run `npm run start` to start the project
 3. Start coding!
 
+Pre-requisites:
+Meta mask wallet with a few ethers from the rinkeby faucet, and that's it!
