@@ -245,7 +245,7 @@ useEffect(() => {
       </div>
         
       <div className="footer-container">
-        Built with ❤ by <a>github.com/Sid2202</a>
+        Built with ❤ by <a>https://github.com/Sid2202</a>
       </div>
     </div>
   </div>
