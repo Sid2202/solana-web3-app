@@ -237,6 +237,7 @@ useEffect(() => {
         <p className="header">Solanagram</p>
         <p className="sub-text">
           🌈Jump into the metaverse of creators!🌠
+	  Built with ❤ by <a>github.com/Sid2202</a>
         </p>
         {!walletAddress && renderNotConnectedContainer()}
         {/* We just need to add the inverse here! */}
