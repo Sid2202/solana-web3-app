@@ -237,7 +237,7 @@ useEffect(() => {
         <p className="header">Solanagram</p>
         <p className="sub-text">
           🌈Jump into the metaverse of creators!🌠
-	  Built with ❤ by <a>github.com/Sid2202</a>
+	  
         </p>
         {!walletAddress && renderNotConnectedContainer()}
         {/* We just need to add the inverse here! */}
@@ -245,13 +245,7 @@ useEffect(() => {
       </div>
         
       <div className="footer-container">
-        <img alt="Twitter Logo" className="twitter-logo" src={twitterLogo} />
-        <a
-          className="footer-text"
-          href={TWITTER_LINK}
-          target="_blank"
-          rel="noreferrer"
-        >{`built on @${TWITTER_HANDLE}`}</a>
+        Built with ❤ by <a>github.com/Sid2202</a>
       </div>
     </div>
   </div>
